@@ -4,13 +4,12 @@ background: #fff;
 font: 14px/1.5 "Helvetica Neue", Arial, Helvetiva, sans-serif;
 margin: 0 auto;
 
-
 }
+
 
 /* Nav Elements ------------------------------ */
 
-
-ul{
+#navList{
    width: 720px;
    margin: 0 auto;
    background: #15145F;
@@ -20,13 +19,13 @@ ul{
    overflow: hidden;
 }
 
-li{
+.navListItem{
 	width: 120px;
 	background: #8CD1F4;
 	float: left;
 }
 
-a{
+.navLink{
 	text-decoration: none;
 	background: #8CD1F4;
 	display: block;
@@ -36,8 +35,33 @@ a{
 	color: #15145F;
 }
 
+.navLink:hover{
+	color: #fff;
+	background: #15145F;
+}
 
-a:hover{
-color: #fff;
-background: #15145F;
+
+
+/* Camera Gallery ------------------------------ */
+
+#galleryList{
+	border: 1px dashed #fff;
+	list-style-type: none;
+	width: 700px;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.galleryListItem{
+	float: left;
+	margin-left: 20px;	
+}
+
+.galleryLink{
+border: 10px solid #8CD1F4;
+display: block;
+width: 150px;
+height: 130px;
+outline: 0;
 }
