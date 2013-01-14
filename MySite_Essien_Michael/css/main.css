@@ -6,6 +6,9 @@ margin: 0 auto;
 
 }
 
+h1{
+text-align:center
+}
 
 /* Nav Elements ------------------------------ */
 
@@ -49,6 +52,7 @@ margin: 0 auto;
 	list-style-type: none;
 	width: 400px;
 	margin: 20px auto;
+	float: left;
 	overflow: hidden;
 	padding: 5px;
 }
