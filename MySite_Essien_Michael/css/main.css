@@ -86,18 +86,19 @@ h3{
 
 /* Camera Gallery ------------------------------ */
 
-.galleryfloatLeft{
+/*.galleryfloatLeft{
 	clear: right;
 	display: block;
 	float: left;
 }
+*/
 
 #galleryList{
 	border: 1px dashed #fff;
 	list-style-type: none;
-	width: 400px;
+	width: 800px;
 	margin: 20px auto;
-	/*float: left;*/
+	float: left;
 	overflow: hidden;
 	padding: 5px;
 }
