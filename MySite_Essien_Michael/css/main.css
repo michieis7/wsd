@@ -6,15 +6,40 @@ body {
 	background: #fff;
 	font: 14px/1.5 "Helvetica Neue", Arial, Helvetiva, sans-serif;
 	margin: 0 auto;
-/*padding: 20px;*/
+	padding: 0px;
 
 }
 
 h1{
-	font: 50px "Helvetica Neue", Arial, Helvetiva, sans-serif;
-	text-align: center;
-	/*text-indent: 250px;*/
+	font: 40px "Helvetica Neue", Arial, Helvetiva, sans-serif;
+	text-align: left;
+	margin: 0 auto;
+	text-indent: 55px;
 	text-shadow: 2px 2px 2px #111;
+}
+
+h3{
+	text-indent: 30px;
+}
+
+
+/* Global Link Elements ------------------------------ */
+
+a:link{
+	color: #15145F;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #B72EB7;
+}
+
+a:hover{
+	color: #8CD1F4;
+}
+
+a:active{
+	color: #fff;
 }
 
 /*	
@@ -28,6 +53,9 @@ h1{
 }
 */
 
+
+/* Float Elements ------------------------------ */
+
 .floatLeft{
 	float: left;
 
@@ -40,11 +68,6 @@ h1{
 
 .clearBoth{
 clear: both;
-}
-
-
-h3{
-	text-indent: 30px;
 }
 
 
