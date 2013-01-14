@@ -2,21 +2,22 @@
 
 
 body {
-color: #15145F;
-background: #fff;
-font: 14px/1.5 "Helvetica Neue", Arial, Helvetiva, sans-serif;
-margin: 0 auto;
+	color: #15145F;
+	background: #fff;
+	font: 14px/1.5 "Helvetica Neue", Arial, Helvetiva, sans-serif;
+	margin: 0 auto;
+/*padding: 20px;*/
 
 }
 
 h1{
 	font: 50px "Helvetica Neue", Arial, Helvetiva, sans-serif;
 	text-align: center;
-	text-indent: 250px;
+	/*text-indent: 250px;*/
 	text-shadow: 2px 2px 2px #111;
 }
 
-	
+/*	
 .boxShadow{
 	width: 620px;
 	height: 450px;
@@ -25,12 +26,28 @@ h1{
 	-webkit-box-shadow: 5px 5px 5px #666;
 	box-shadow: 5px 5px 5px #666;	
 }
+*/
 
-#featuredImage{
-	width: 570px;
-	height: 378px;
+.floatLeft{
+	float: left;
 
 }
+
+.floatRight{
+	float: right;
+
+}
+
+.clearBoth{
+clear: both;
+}
+
+
+h3{
+	text-indent: 30px;
+}
+
+
 
 /* Nav Elements ------------------------------ */
 
@@ -69,12 +86,18 @@ h1{
 
 /* Camera Gallery ------------------------------ */
 
+.galleryfloatLeft{
+	clear: right;
+	display: block;
+	float: left;
+}
+
 #galleryList{
 	border: 1px dashed #fff;
 	list-style-type: none;
 	width: 400px;
 	margin: 20px auto;
-	float: left;
+	/*float: left;*/
 	overflow: hidden;
 	padding: 5px;
 }
@@ -86,11 +109,11 @@ h1{
 }
 
 .galleryLink{
-border: 10px solid #8CD1F4;
-display: block;
-width: 150px;
-height: 130px;
-outline: 0;
+	border: 10px solid #8CD1F4;
+	display: block;
+	width: 150px;
+	height: 130px;
+	outline: 0;
 }
 
 
@@ -116,8 +139,6 @@ outline: 0;
 	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
 }
-
-
 
 
 
