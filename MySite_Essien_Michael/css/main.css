@@ -1,0 +1,44 @@
+body {
+color: #15145F;
+background: #fff;
+font: 14px/1.5 "Helvetica Neue", Arial, Helvetiva, sans-serif;
+width: 790px
+margin: 0 auto;
+
+
+}
+
+/* Nav Elements ------------------------------ */
+
+
+ul{
+   width: 720px;
+   margin: 0 auto;
+   background: #15145F;
+   list-style-type: none;
+   padding: 0;
+   float: right;
+   overflow: hidden;
+}
+
+li{
+	width: 120px;
+	background: #8CD1F4;
+	float: left;
+}
+
+a{
+	text-decoration: none;
+	background: #8CD1F4;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #15145F;
+}
+
+
+a:hover{
+color: #fff;
+background: #15145F;
+}
