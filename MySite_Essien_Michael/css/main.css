@@ -47,7 +47,7 @@ margin: 0 auto;
 #galleryList{
 	border: 1px dashed #fff;
 	list-style-type: none;
-	width: 700px;
+	width: 400px;
 	margin: 20px auto;
 	overflow: hidden;
 	padding: 5px;
@@ -55,7 +55,8 @@ margin: 0 auto;
 
 .galleryListItem{
 	float: left;
-	margin-left: 20px;	
+	margin-left: 20px;
+	margin-top: 20px;	
 }
 
 .galleryLink{
