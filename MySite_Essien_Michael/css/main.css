@@ -26,12 +26,15 @@ p{
 	width: 960px;
 	margin: 0 auto;
 	background: #D4D4D6;
+	
 
 }
 
 body {
 	color: #15145F;
 	background: #fff;
+	background-image: url("../images/camera_bg.gif");
+	background-attachment: fixed;
 	font: 14px 'Basic', sans-serif;
 	margin: 0 auto;
 	padding: 0px;
@@ -61,6 +64,7 @@ article{
 	height: 310px;
 	margin: 30px 0px 3px;
 	padding: 0px;
+
 }
 
 
@@ -193,6 +197,7 @@ a:active{
 	clear: right;
 	float: left;
 	background: #559FD3;
+	opacity: 0.8;
 	width: 300px;
 	padding: 10px;
 	margin: 0px 0px 30px 0px;	
