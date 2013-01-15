@@ -4,14 +4,14 @@
 body {
 	color: #15145F;
 	background: #fff;
-	font: 14px/1.5 "Helvetica Neue", Arial, Helvetiva, sans-serif;
+	font: 16px 'Basic', sans-serif;
 	margin: 0 auto;
 	padding: 0px;
 
 }
 
 h1{
-	font: 40px "Helvetica Neue", Arial, Helvetiva, sans-serif;
+	font: 40px 'Denk One', sans-serif;
 	text-align: left;
 	margin: 0 auto;
 	text-indent: 55px;
@@ -23,7 +23,7 @@ h3{
 }
 
 
-/* Global Link Elements ------------------------------ */
+/* Global Links ------------------------------ */
 
 a:link{
 	color: #15145F;
@@ -58,6 +58,7 @@ a:active{
 
 .floatLeft{
 	float: left;
+	width: 250px;
 
 }
 
@@ -69,7 +70,6 @@ a:active{
 .clearBoth{
 clear: both;
 }
-
 
 
 /* Nav Elements ------------------------------ */
@@ -107,7 +107,7 @@ clear: both;
 
 
 
-/* Camera Gallery ------------------------------ */
+/* Camera Types Gallery ------------------------------ */
 
 /*.galleryfloatLeft{
 	clear: right;
@@ -167,7 +167,7 @@ clear: both;
 
 
 
-/* Button - General Style Test ------------------------------ */
+/* Button - General Style ------------------------------ */
 
 .button {
 	display: inline-block;
