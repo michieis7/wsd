@@ -50,10 +50,22 @@ h1{
 article{
 	background: #8CD1F4;
 	width: 960px;
-	height: 350px;
+	height: 310px;
 	margin: 30px 0px 3px;
+	padding: 0px;
 }
 
+/* Definition Paragraph Positioning ------------------------ */
+#definitionparaPadding{
+	padding: 20px;
+
+}
+
+/* More Details Button Positioning ------------------------ */
+#moredetailsPadding{
+	padding: 10px;
+
+}
 
 /* Section ------------------------------ */
 section{
@@ -106,7 +118,8 @@ a:active{
 
 .floatfeaturedLeft{
 	float: left;
-	width: 400px;
+	width: 380px;
+	padding: 20px
 
 }
 
