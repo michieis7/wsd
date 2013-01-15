@@ -1,5 +1,22 @@
+/* Page Colors
+Navy Blue			#15145F
+Sky Blue (Darker)	#559FD3
+Sky Blue (Lighter)	#8CD1F4
+*/
+
+
+
 /* Main Page Elements ------------------------------ */
 
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+
+}
+
+p{
+	margin: 0;
+
+}
 
 body {
 	color: #15145F;
@@ -23,6 +40,12 @@ h3{
 }
 
 
+/* Article ------------------------------ */
+article{
+background: #8CD1F4;
+
+}
+
 /* Global Links ------------------------------ */
 
 a:link{
@@ -42,19 +65,9 @@ a:active{
 	color: #fff;
 }
 
-/*	
-.boxShadow{
-	width: 620px;
-	height: 450px;
-	background-color: #fff;
-	-moz-box-shadow: 5px 5px 5px #666;
-	-webkit-box-shadow: 5px 5px 5px #666;
-	box-shadow: 5px 5px 5px #666;	
-}
-*/
 
 
-/* Float Elements ------------------------------ */
+/* Float CSS ------------------------------ */
 
 .floatLeft{
 	float: left;
@@ -142,7 +155,7 @@ clear: both;
 
 
 
-/* Orange Gradient Button Test ------------------------------ */
+/* Orange Gradient Button ------------------------------ */
 .orange {
 	color: #fef4e9;
 	border: solid 1px #da7c0c;
