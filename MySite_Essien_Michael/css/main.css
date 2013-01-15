@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6{
 
 p{
 	margin: 0;
+	padding: 4px;
 
 }
 
@@ -45,10 +46,12 @@ h1{
 	text-shadow: 2px 2px 2px #111;
 }
 
-/*h3{
-	text-indent: 30px;
+ul{
+	list-style-type: circle;
+
 }
-*/
+
+
 
 /* Featured Article ------------------------------ */
 
@@ -61,7 +64,7 @@ article{
 }
 
 
-/* Definition Paragraph Positioning ------------------------ */
+/* Definition: Featured Paragraph Positioning ------------------------ */
 
 #definitionparaPadding{
 	padding: 20px;
@@ -75,7 +78,7 @@ article{
 
 }
 
-/* Section ------------------------------ */
+/* Main Section ------------------------------ */
 
 section{
 	width: 900px;
@@ -85,13 +88,14 @@ section{
 
 }
 
-/* Aside ------------------------------ */
+/* Main Aside ------------------------------ */
 
 aside{
+	float: left;
 	background: #559FD3;
-	text-align: center;
-	width: 420px;
-	padding: 5px;
+	text-align: left;
+	width: 320px;
+	padding: 10px 0px 10px;
 	margin: 0 auto;	
 
 }
@@ -134,7 +138,7 @@ a:active{
 
 
 
-/* Float CSS ------------------------------ */
+/* Float / Clear CSS ------------------------------ */
 
 .floatfeaturedLeft{
 	float: left;
@@ -143,13 +147,20 @@ a:active{
 
 }
 
-.floatRight{
-	float: right;
-
+.floatLeft{
+	clear: right;
+	float: left;
+	background: #559FD3;
+	text-align: left;
+	width: 320px;
+	padding: 10px 0px 10px;
+	margin: 0 auto;	
 }
+
 
 .clearBoth{
 clear: both;
+
 }
 
 
@@ -189,13 +200,6 @@ clear: both;
 
 
 /* Camera Types Gallery ------------------------------ */
-
-/*.galleryfloatLeft{
-	clear: right;
-	display: block;
-	float: left;
-}
-*/
 
 #galleryList{
 	list-style-type: none;
