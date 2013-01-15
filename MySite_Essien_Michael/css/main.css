@@ -1,7 +1,8 @@
 /* Page Colors
-Navy Blue			#15145F
-Sky Blue (Darker)	#559FD3
-Sky Blue (Lighter)	#8CD1F4
+Navy Blue					#15145F
+Sky Blue (Darker)			#559FD3
+Sky Blue (Lighter)			#8CD1F4
+Grey (Wrapper Background)	#D4D4D6
 */
 
 
@@ -11,6 +12,7 @@ Sky Blue (Lighter)	#8CD1F4
 #wrapper{
 	width: 960px;
 	margin: 0 auto;
+	background: #D4D4D6;
 
 }
 
@@ -47,6 +49,7 @@ h1{
 */
 
 /* Featured Article ------------------------------ */
+
 article{
 	background: #8CD1F4;
 	width: 960px;
@@ -55,19 +58,23 @@ article{
 	padding: 0px;
 }
 
+
 /* Definition Paragraph Positioning ------------------------ */
+
 #definitionparaPadding{
 	padding: 20px;
 
 }
 
 /* More Details Button Positioning ------------------------ */
+
 #moredetailsPadding{
 	padding: 10px;
 
 }
 
 /* Section ------------------------------ */
+
 section{
 	width: 900px;
 	padding: 30px;
@@ -77,6 +84,7 @@ section{
 }
 
 /* Aside ------------------------------ */
+
 aside{
 	background: #559FD3;
 	text-align: center;
@@ -89,7 +97,17 @@ aside{
 
 /* Footer ------------------------------ */
 
+footer{
+	background: #8CD1F4;
+	margin: 30px 0px 0px;
+	padding: 10px;
+}
 
+
+.footerParagraphs{
+	text-align: center;
+
+}
 
 
 
@@ -204,6 +222,7 @@ clear: both;
 
 
 /* Orange Gradient Button ------------------------------ */
+
 .orange {
 	color: #fef4e9;
 	border: solid 1px #da7c0c;
