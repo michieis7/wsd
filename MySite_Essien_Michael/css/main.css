@@ -27,30 +27,59 @@ p{
 body {
 	color: #15145F;
 	background: #fff;
-	font: 16px 'Basic', sans-serif;
+	font: 14px 'Basic', sans-serif;
 	margin: 0 auto;
 	padding: 0px;
 
 }
 
 h1{
-	font: 40px 'Denk One', sans-serif;
+	font: 31px 'Denk One', sans-serif;
 	text-align: left;
 	margin: 0 auto;
-	text-indent: 55px;
+	text-indent: 25px;
 	text-shadow: 2px 2px 2px #111;
 }
 
-h3{
+/*h3{
 	text-indent: 30px;
 }
+*/
 
-
-/* Article ------------------------------ */
+/* Featured Article ------------------------------ */
 article{
-background: #8CD1F4;
+	background: #8CD1F4;
+	width: 960px;
+	height: 350px;
+	margin: 30px 0px 3px;
+}
+
+
+/* Section ------------------------------ */
+section{
+	width: 900px;
+	padding: 30px;
+	margin: 0 auto;	
+
 
 }
+
+/* Aside ------------------------------ */
+aside{
+	background: #559FD3;
+	text-align: center;
+	width: 420px;
+	padding: 5px;
+	margin: 0 auto;	
+
+}
+
+
+/* Footer ------------------------------ */
+
+
+
+
 
 /* Global Links ------------------------------ */
 
@@ -75,9 +104,9 @@ a:active{
 
 /* Float CSS ------------------------------ */
 
-.floatLeft{
+.floatfeaturedLeft{
 	float: left;
-	width: 250px;
+	width: 400px;
 
 }
 
@@ -113,7 +142,7 @@ clear: both;
 	text-decoration: none;
 	background: #8CD1F4;
 	display: block;
-	height: 30px;
+	height: 35px;
 	line-height: 30px;
 	text-align: center;
 	color: #15145F;
@@ -139,8 +168,8 @@ clear: both;
 	border: 1px dashed #fff;
 	list-style-type: none;
 	width: 800px;
-	margin: 20px auto;
-	float: left;
+	margin: 5px auto;
+	/*float: left;*/
 	overflow: hidden;
 	padding: 5px;
 }
