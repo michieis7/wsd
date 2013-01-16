@@ -137,13 +137,16 @@ article{
 /* Main Section (Different Types of Still Cameras) ------------------------------ */
 
 #mainSection{
-	width: 900px;
+	width: 920px;
 	padding: 20px;
 	margin: 5px auto;	
 
 
 }
 
+
+
+/* Membership Box ------------------------------ */
 
 #membershipDiv{
 	width: 920px;
@@ -209,7 +212,7 @@ a:active{
 	background: #559FD3;
 	opacity: 0.8;
 	width: 300px;
-	padding: 10px;
+	padding: 10px 0px 10px 20px;
 	margin: 0px 0px 30px 0px;	
 }
 
