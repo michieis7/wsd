@@ -145,6 +145,18 @@ article{
 }
 
 
+#membershipDiv{
+	width: 960px;
+	height: 500px;
+	padding: 20px;
+	background-color: #D4D4D6;
+
+}
+
+
+
+
+
 /* Footer ------------------------------ */
 
 footer{
@@ -203,7 +215,7 @@ a:active{
 
 
 .clearBoth{
-clear: both;
+	clear: both;
 
 }
 
