@@ -1,8 +1,9 @@
 /* Page Colors
-Navy Blue					#15145F
-Sky Blue (Darker)			#559FD3
-Sky Blue (Lighter)			#8CD1F4
-Grey (Wrapper Background)	#D4D4D6
+Navy Blue						#15145F
+Sky Blue (Darker)				#559FD3
+Sky Blue (Lighter)				#8CD1F4
+Old - Grey (Wrapper Background)	#D4D4D6
+Current Wrapper Background		#fff
 */
 
 
@@ -25,7 +26,7 @@ p{
 #wrapper{
 	width: 960px;
 	margin: 0 auto;
-	background: #D4D4D6;
+	background: #fff;
 	
 
 }
