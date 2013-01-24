@@ -233,20 +233,25 @@ a:active{
 	outline: 0;
 }
 
-
 /* =Media Queries
 ========================================================*/
 /* Tablet Portrait Size to standard 960 (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 959px) {
-
+article{
+	background: #8CD1F4;
+}
 }
 
 /* Mobile Landscape Size to Tablet Portrait Size (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
+article{
+	background: #559FD3;
+}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media screen and (max-width: 479px) {
-
+article{
+	background: #D4D4D6;
+}
 }
