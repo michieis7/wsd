@@ -6,29 +6,21 @@ Old - Grey (Wrapper Background)	#D4D4D6
 Current Wrapper Background		#fff
 */
 
-
-
 /* Generic Page Elements ------------------------------ */
-
-
 h1, h2, h3, h4, h5, h6{
 	margin: 0;
-
 }
 
 p{
 	margin: 0;
 	padding: 4px;
-
 }
 
-
 #wrapper{
-	width: 960px;
+	width: 100%; /*960px;*/
 	margin: 0 auto;
 	background: #fff;
 	box-shadow:0px 0px 20px #606060;
-
 }
 
 body {
@@ -37,7 +29,6 @@ body {
 	font: 14px 'Basic', sans-serif;
 	margin: 0 auto;
 	padding: 0px;
-
 }
 
 h1{
@@ -50,40 +41,30 @@ h1{
 
 ul{
 	list-style-type: circle;
-
 }
-
-
 
 /* Featured Article ------------------------------ */
 
 article{
 	background: #8CD1F4;
-	width: 960px;
+	width: 100%; /*960px;*/
 	height: 310px;
 	margin: 30px 0px 3px;
 	padding: 0px;
-
 }
 
-
 /* Definition: Featured Paragraph Positioning ------------------------ */
-
 #definitionparaPadding{
 	padding: 20px;
-
 }
 
 /* CTA (More Details...) Button Positioning ------------------------ */
-
 #moredetailsButton{
 	padding: 10px;
-
 }
 
 
 /* Orange Gradient Button ------------------------------ */
-
 .orange {
 	color: #fef4e9;
 	border: solid 1px #da7c0c;
@@ -105,10 +86,7 @@ article{
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
 }
 
-
-
 /* Button - General Style ------------------------------ */
-
 .button {
 	display: inline-block;
 	outline: none;
@@ -133,51 +111,33 @@ article{
 	top: 1px;
 }
 
-
 /* Main Section (Different Types of Still Cameras) ------------------------------ */
-
 #mainSection{
 	width: 920px;
 	padding: 20px;
 	margin: 5px auto;	
-
-
 }
 
-
-
 /* Membership Box ------------------------------ */
-
 #membershipDiv{
 	width: 920px;
 	height: 500px;
 	padding: 20px;
 	background-color: #D4D4D6;
-
 }
 
-
-
-
-
 /* Footer ------------------------------ */
-
 footer{
 	background: #8CD1F4;
 	margin: 0 auto;
 	padding: 10px;
 }
 
-
 .footerParagraphs{
 	text-align: center;
-
 }
 
-
-
 /* Global Links ------------------------------ */
-
 a:link{
 	color: #15145F;
 	text-decoration: none;
@@ -195,15 +155,11 @@ a:active{
 	color: #fff;
 }
 
-
-
 /* Float / Clear CSS ------------------------------ */
-
 .floatfeaturedLeft{
 	float: left;
 	width: 380px;
 	padding: 20px
-
 }
 
 .floatLeft{
@@ -216,15 +172,12 @@ a:active{
 	margin: 0px 0px 30px 0px;	
 }
 
-
 .clearBoth{
 	clear: both;
 
 }
 
-
 /* Nav Elements ------------------------------ */
-
 #navList{
    width: 720px;
    margin: 0 auto;
@@ -256,10 +209,7 @@ a:active{
 	background: #15145F;
 }
 
-
-
 /* Camera Types Gallery ------------------------------ */
-
 #galleryList{
 	list-style-type: none;
 	width: 800px;
