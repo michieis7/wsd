@@ -26,13 +26,13 @@ p{
 body {
 	color: #15145F;
 	background: #fff url("../images/camera_bg.gif") repeat fixed;
-	font: 14px 'Basic', sans-serif;
+	font: 87.5% 'Basic', sans-serif;  /*14px/16px*/
 	margin: 0 auto;
 	padding: 0px;
 }
 
 h1{
-	font: 31px 'Denk One', sans-serif;
+	font: 193.75% 'Denk One', sans-serif; /*31px/16px*/
 	text-align: left;
 	margin: 0 auto;
 	text-indent: 25px;
@@ -48,9 +48,9 @@ ul{
 article{
 	background: #8CD1F4;
 	width: 100%; /*960px;*/
-	height: 310px;
-	margin: 30px 0px 3px;
-	padding: 0px;
+	height: 32.291666666667%;  /*310px/960px*/
+	margin: 3.125% 0% 0.3125% /*30px 0px 3px; divided by 960px*/
+	padding: 0%; /*0px*/
 }
 
 /* Definition: Featured Paragraph Positioning ------------------------ */
