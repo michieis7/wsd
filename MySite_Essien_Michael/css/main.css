@@ -17,7 +17,7 @@ p{
 }
 
 #wrapper{
-	width: 100%; /*960px;*/
+	width: 75%; /*960px; deviated*/
 	margin: 0 auto;
 	background: #fff;
 	box-shadow:0px 0px 20px #606060;
@@ -113,16 +113,16 @@ article{
 
 /* Main Section (Different Types of Still Cameras) ------------------------------ */
 #mainSection{
-	width: 920px;
-	padding: 20px;
+	width: 75%; /*920px;*/
+	padding: 2.173913043478%; /*20px/920;*/
 	margin: 5px auto;	
 }
 
 /* Membership Box ------------------------------ */
 #membershipDiv{
-	width: 920px;
+	width: 95.833333333333%; /*920px;*/
 	height: 500px;
-	padding: 20px;
+	padding: 2.173913043478%; /*20px/920;*/
 	background-color: #D4D4D6;
 }
 
@@ -179,7 +179,7 @@ a:active{
 
 /* Nav Elements ------------------------------ */
 #navList{
-   width: 720px;
+   width: 67.69%; /*720px;*/
    margin: 0 auto;
    background: #15145F;
    list-style-type: none;
@@ -189,7 +189,7 @@ a:active{
 }
 
 .navListItem{
-	width: 120px;
+	width: 16.666666666667%; /*120px/720px;*/
 	background: #8CD1F4;
 	float: left;
 }
@@ -212,7 +212,7 @@ a:active{
 /* Camera Types Gallery ------------------------------ */
 #galleryList{
 	list-style-type: none;
-	width: 800px;
+	width: 86.95652173913%; /*800px;*/
 	margin: 5px auto;
 	overflow: hidden;
 	padding: 5px;
