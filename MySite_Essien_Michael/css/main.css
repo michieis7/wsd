@@ -213,10 +213,10 @@ a:active{
 /* Camera Types Gallery ------------------------------ */
 #galleryList{
 	list-style-type: none;
-	width: 86.95652173913%; /*800px/920;*/
-	margin: 5px auto;
+	width: 83.333333333333%; /*86.95652173913%; /*800px/960;*/
+	margin: 0.520833333333% auto; /*5px auto;*/
 	overflow: hidden;
-	padding: 5px;
+	padding: 0.625%; /*5px;*/
 }
 
 .galleryListItem{
