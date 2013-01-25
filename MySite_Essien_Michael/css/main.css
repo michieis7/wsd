@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6{
 
 p{
 	margin: 0;
-	padding: 4px;
+	padding: 0.416666666667%; /*4px;*/
 }
 
 #wrapper{
@@ -39,9 +39,17 @@ h1{
 	text-shadow: 2px 2px 2px #111;
 }
 
+h2{
+	font: 180% 'Basic', sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+
+}
+
 ul{
 	list-style-type: circle;
 }
+
 
 /* Featured Article ------------------------------ */
 
@@ -55,13 +63,13 @@ article{
 
 /* Definition: Featured Paragraph Positioning ------------------------ */
 #definitionparaPadding{
-	padding: 20px;
+	padding: 2.083333333333%; /*20px/960px;*/
 }
 
 /* CTA (More Details...) Button Positioning ------------------------ */
 #moredetailsButton{
-	padding: 10px;
-	margin: 5px 0px 30px;
+	padding: 1.041666666667%; /*10px;*/
+	margin: 0.520833333333% 0% 3.125%; /*5px 0px 30px; / 960px*/
 }
 
 
@@ -116,7 +124,7 @@ article{
 #mainSection{
 	width: 75%; /*920px;*/
 	padding: 2.173913043478%; /*20px/920;*/
-	margin: 5px auto;	
+	margin: 0.217391304348%; /*5px auto;	*/
 }
 
 /* Membership Box ------------------------------ */
@@ -131,7 +139,7 @@ article{
 footer{
 	background: #8CD1F4;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 1.041666666667%; /*10px;*/
 }
 
 .footerParagraphs{
@@ -159,8 +167,18 @@ a:active{
 /* Float / Clear CSS ------------------------------ */
 .floatfeaturedLeft{
 	float: left;
-	width: 380px; /*39.583333333333%; /*380px/960px;*/
+	/*width: 380px; /*39.583333333333%; /*380px/960px;*/
 	padding: 10px; /*5.263157894737%; /*20px/380;*/
+}
+
+
+.floatfeaturedImage{
+	/*border: 8px solid #333;*/
+	width: 100%;
+}
+
+.floatfeaturedImage img{
+max-width: 100%;
 }
 
 .floatLeft{
@@ -213,7 +231,7 @@ a:active{
 /* Camera Types Gallery ------------------------------ */
 #galleryList{
 	list-style-type: none;
-	width: 83.333333333333%; /*86.95652173913%; /*800px/960;*/
+	width: 90%; /*86.95652173913%; /*800px/960;*/
 	margin: 0.520833333333% auto; /*5px auto;*/
 	overflow: hidden;
 	padding: 0.625%; /*5px;*/
@@ -221,14 +239,14 @@ a:active{
 
 .galleryListItem{
 	float: left;
-	margin-left: 20px;
-	margin-top: 20px;	
+	margin-left: 2.083333333333%; /*20px;*/
+	margin-top: 2.083333333333%; /*20px;*/	
 }
 
 .galleryLink{
-	border: 10px solid #8CD1F4;
+	border: 10px solid #8CD1F4; /*1.041666666667% solid #8CD1F4;*/
 	display: block;
-	width: 150px;
+	width: 150px; /*0.15625%;*/ 
 	height: 130px;
 	outline: 0;
 }
@@ -247,6 +265,46 @@ article{
 article{
 	background: #559FD3;
 }
+.floatLeft{
+	clear: right;
+	float: none;
+	background: #559FD3;
+	opacity: 0.8;
+	width: 31.25%; /*300px/960*/;
+	padding: 1.041666666667% 0% 1.041666666667% 2.083333333333%; /*10px 0px 10px 20px;*/
+	margin: 0% 0% 3.125%; /*0px 0px 30px 0px;*/	
+}
+
+#navList{
+   width: 67.69%; /*720px;*/
+   margin: 0 auto;
+   background: #15145F;
+   list-style-type: none;
+   padding: 0;
+   float: none;
+   overflow: hidden;
+}
+
+.navListItem{
+	width: 100%; /*120px/720px;*/
+	background: #8CD1F4;
+	float: none;
+}
+
+.navLink{
+	text-decoration: none;
+	background: #8CD1F4;
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #15145F;
+}
+
+.navLink:hover{
+	color: #fff;
+	background: #15145F;
+}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -254,4 +312,52 @@ article{
 article{
 	background: #D4D4D6;
 }
+.floatLeft{
+	clear: right;
+	float: none;
+	background: #559FD3;
+	opacity: 0.8;
+	width: 98%; /*300px/960*/;
+	padding: 1.041666666667% 0% 1.041666666667% 2.083333333333%; /*10px 0px 10px 20px;*/
+	margin: 0% 0% 3.125%; /*0px 0px 30px 0px;*/	
+}
+
+
+#navList{
+   width: 67.69%; /*720px;*/
+   margin: 0 auto;
+   background: #15145F;
+   list-style-type: none;
+   padding: 0;
+   float: none;
+   overflow: hidden;
+}
+
+.navListItem{
+	width: 100%; /*120px/720px;*/
+	background: #8CD1F4;
+	float: none;
+}
+
+.navLink{
+	text-decoration: none;
+	background: #8CD1F4;
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #15145F;
+}
+
+.navLink:hover{
+	color: #fff;
+	background: #15145F;
+}
+/*article, section, aside {
+	float: none;
+}*/
+.floatfeaturedImage{
+	display: none;
+}
+
 }
