@@ -252,25 +252,50 @@ max-width: 100%;
 }
 
 /* =Media Queries
-========================================================*/
-/* Tablet Portrait Size to standard 960 (devices and browsers) */
-@media screen and (min-width: 768px) and (max-width: 959px) {
-article{
-	background: #8CD1F4;
-}
-}
+======================================================================
+----------------------------------------------------------------------*/
 
-/* Mobile Landscape Size to Tablet Portrait Size (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* Tablet Portrait Size to standard 960 (devices and browsers) 
+======================================================================*/
+@media screen and (min-width: 768px) and (max-width: 959px) {
 article{
 	background: #559FD3;
 }
+
 .floatLeft{
 	clear: right;
 	float: none;
 	background: #559FD3;
 	opacity: 0.8;
-	width: 31.25%; /*300px/960*/;
+	width: 98%; /*300px/960*/;
+	padding: 1.041666666667% 0% 1.041666666667% 2.083333333333%; /*10px 0px 10px 20px;*/
+	margin: 0% 0% 3.125%; /*0px 0px 30px 0px;*/	
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait Size (devices and browsers) 
+======================================================================*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+article{
+	background: #559FD3;
+}
+
+h1{
+	font: 200% 'Denk One', sans-serif; /*31px/16px*/
+	text-align: center;
+	margin: 10% auto;
+	/*text-indent: 25px;*/
+	text-shadow: 2px 2px 2px #111;
+}	
+
+
+.floatLeft{
+	clear: right;
+	float: none;
+	background: #559FD3;
+	opacity: 0.8;
+	width: 98%; /*300px/960*/;
 	padding: 1.041666666667% 0% 1.041666666667% 2.083333333333%; /*10px 0px 10px 20px;*/
 	margin: 0% 0% 3.125%; /*0px 0px 30px 0px;*/	
 }
@@ -287,6 +312,7 @@ article{
 
 .navListItem{
 	width: 100%; /*120px/720px;*/
+	margin: 5% 0% 5%;
 	background: #8CD1F4;
 	float: none;
 }
@@ -307,11 +333,21 @@ article{
 }
 }
 
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 
+======================================================================*/
 @media screen and (max-width: 479px) {
 article{
 	background: #D4D4D6;
 }
+
+h1{
+	font: 200% 'Denk One', sans-serif; /*31px/16px*/
+	text-align: center;
+	margin: 10% auto;
+	/*text-indent: 25px;*/
+	text-shadow: 2px 2px 2px #111;
+}	
+
 .floatLeft{
 	clear: right;
 	float: none;
@@ -335,6 +371,7 @@ article{
 
 .navListItem{
 	width: 100%; /*120px/720px;*/
+	margin: 5% 0% 5%;
 	background: #8CD1F4;
 	float: none;
 }
