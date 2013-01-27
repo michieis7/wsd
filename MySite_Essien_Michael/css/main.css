@@ -62,17 +62,17 @@ article{
 }
 
 /* Definition: Featured Paragraph Positioning ------------------------ */
-#definitionparaPaddingCOLUMNS{
+.definitionparaPaddingCOLUMNS{
 	padding: 2.083333333333%; /*20px/960px;*/
-	-moz-column-count:3; /* Firefox */
-	-webkit-column-count:3; /* Safari and Chrome */
-	column-count:3;
+	/*-moz-column-count:0; /* Firefox */
+	/*-webkit-column-count:0; /* Safari and Chrome */
+	/*column-count:0;*/
 }
 
 /* CTA (More Details...) Button Positioning ------------------------ */
 #moredetailsButton{
 	padding: 1.041666666667%; /*10px;*/
-	margin: 0.520833333333% 3.125% 3.125%; /*5px 0px 30px; / 960px*/
+	margin: 0.520833333333% 0% 3.125%; /*5px 0px 30px; / 960px*/
 }
 
 
@@ -234,7 +234,7 @@ max-width: 100%;
 /* Camera Types Gallery ------------------------------ */
 #galleryList{
 	list-style-type: none;
-	width: 90%; /*86.95652173913%; /*800px/960;*/
+	width: 95%; /*86.95652173913%; /*800px/960; deviated from calculations to fit*/
 	margin: 0.520833333333% auto; /*5px auto;*/
 	overflow: hidden;
 	padding: 0.625%; /*5px;*/
@@ -262,6 +262,7 @@ max-width: 100%;
 /* Tablet Portrait Size to standard 960 (devices and browsers) 
 ======================================================================*/
 @media screen and (min-width: 768px) and (max-width: 959px) {
+
 article{
 	background: #559FD3;
 }
@@ -280,6 +281,14 @@ article{
 /* Mobile Landscape Size to Tablet Portrait Size (devices and browsers) 
 ======================================================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ .definitionparaPaddingCOLUMNS{
+	padding: 2.083333333333%; /*20px/960px;*/
+	/*-moz-column-count:0; /* Firefox */
+	/*-webkit-column-count:0; /* Safari and Chrome */
+	/*column-count:0;*/
+}
+
 article{
 	background: #559FD3;
 }
@@ -339,6 +348,14 @@ h1{
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 
 ======================================================================*/
 @media screen and (max-width: 479px) {
+
+.definitionparaPaddingCOLUMNS{
+	padding: 2.083333333333%; /*20px/960px;*/
+	/*-moz-column-count:0; /* Firefox */
+	/*-webkit-column-count:0; /* Safari and Chrome */
+	/*column-count:0;*/
+}
+
 article{
 	background: #D4D4D6;
 }
