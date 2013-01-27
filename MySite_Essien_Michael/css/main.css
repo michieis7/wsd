@@ -62,14 +62,17 @@ article{
 }
 
 /* Definition: Featured Paragraph Positioning ------------------------ */
-#definitionparaPadding{
+#definitionparaPaddingCOLUMNS{
 	padding: 2.083333333333%; /*20px/960px;*/
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
 }
 
 /* CTA (More Details...) Button Positioning ------------------------ */
 #moredetailsButton{
 	padding: 1.041666666667%; /*10px;*/
-	margin: 0.520833333333% 0% 3.125%; /*5px 0px 30px; / 960px*/
+	margin: 0.520833333333% 3.125% 3.125%; /*5px 0px 30px; / 960px*/
 }
 
 
