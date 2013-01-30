@@ -133,10 +133,45 @@ article{
 /* Membership Box ------------------------------ */
 #membershipDiv{
 	width: 95.833333333333%; /*920px/960px;*/
-	height: 500px;
+	height: 400px;
 	padding: 2.083333333333%; /*20px/960;*/
 	background-color: #D4D4D6;
 }
+
+
+/* Packages Table ------------------------------ */
+#Packages{
+		float:left;
+		margin:20px 0px 0px 250px;
+
+}		
+
+table {
+		border-collapse:collapse;
+		border:1px solid #559FD3;
+		
+}
+
+td{
+	border:1px solid #559FD3;
+	padding:0.3em;
+
+}
+
+th{
+	text-align:left;
+	background-color:#559FD3;
+	color:#15145F;
+	padding:0.3em;
+}
+
+/* Form ------------------------------ */
+#signupFormDiv{
+	margin:20px 0px 0px 250px;
+}
+
+
+
 
 /* Footer ------------------------------ */
 footer{
