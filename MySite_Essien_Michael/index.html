@@ -164,6 +164,50 @@
 			<h3>Sign Up!</h3>
 				<form method="get" action="process_form.html">
 					
+					<div>
+						<label for="name_first"> First Name</label>
+						<input type="text" name="name_first" id="name_first" />
+					</div>
+					
+					<div>
+						<label for="name_last"> Last Name</label>
+						<input type="text" name="name_last" id="name_last" />
+					</div>
+					
+					<div>
+						<label for="email"> Email</label>
+						<input type="text" name="email" id="email" />
+					</div>
+					
+					<div>
+						<label for="regarding"> Regarding</label>
+					</div>
+					
+					<div>
+						<select name="regarding" id="regarding">
+							<option>General Inquiry</option>
+							<option>Suggestion</option>
+							<option>Site Error</option>
+							<option>Press</option>
+							<option>Legal</option>
+						</select>
+					</div>
+					
+					<div>
+						<label for="message">Message</label>
+						<textarea rows="5" cols="30" name="message" id="message"></textarea>
+					</div>
+					
+					<div>
+						<input type="checkbox" name="contact_phone" id="contact_phone" />
+						<p>I prefer to be contacted by phone</p>
+					</div>
+					
+					<div>
+						<button type="submit" name="submit" class="button">Send Message</button>
+					</div>
+					
+				</form>
 		</div>
 
 	
