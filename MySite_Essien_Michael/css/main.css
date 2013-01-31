@@ -28,7 +28,7 @@ body {
 	background: #fff url("../images/camera_bg.gif") repeat fixed;
 	font: 87.5% 'Basic', sans-serif;  /*14px/16px*/
 	margin: 0 auto;
-	padding: 0px;
+	padding: 0%;
 }
 
 h1{
@@ -65,7 +65,7 @@ article{
 .floatfeaturedTEXTLeft{
 	float: left;
 	width: 39.583333333333%; /*380px/960px;*/
-	padding: 10px; /*5.263157894737%; /*20px/380;*/
+	padding: 1.315789473684%; /*5px/380;*/
 }
 
 
@@ -212,7 +212,13 @@ th{
 }
 
 form{
-	margin: 3.125% 0% 0%; /*30px 0px 0px;*/
+		margin: 3.125% 0% 0%; /*30px 0px 0px;*/
+}
+
+label.fixedwidth {
+display: block;
+width: 100px;
+float: left;
 }
 
 input:focus{
@@ -339,7 +345,7 @@ article{
 
 article{
 	background: #559FD3;
-	height: 440px;
+	height: 500px;
 	margin: 0 auto;
 }
 
@@ -411,7 +417,7 @@ ol{
 
 article{
 	background: #D4D4D6;
-	height: 470px;
+	height: 550px;
 	margin: 0 auto;
 }
 
