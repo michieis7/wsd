@@ -51,28 +51,47 @@ ul{
 }
 
 
-/* Featured Article ------------------------------ */
+/* Featured Article Background Container------------------------------ */
 
 article{
 	background: #8CD1F4;
 	width: 100%; /*960px;*/
-	/*height: 100%; /*310px/310px*/
+	height: 340px;
 	margin: 3.125% 0% 0.3125%; /*30px 0px 3px; divided by 960px*/
 	padding: 0%; /*0px*/
+
+}
+
+.floatfeaturedTEXTLeft{
+	float: left;
+	width: 39.583333333333%; /*380px/960px;*/
+	padding: 10px; /*5.263157894737%; /*20px/380;*/
+}
+
+
+.floatfeaturedImage{
+	clear: right;	
+	width: 100%;
+	float: left;
 }
 
 /* Definition: Featured Paragraph Positioning ------------------------ */
 .definitionparaPaddingCOLUMNS{
+	float: none;
 	padding: 2.083333333333%; /*20px/960px;*/
-	/*-moz-column-count:0; /* Firefox */
-	/*-webkit-column-count:0; /* Safari and Chrome */
-	/*column-count:0;*/
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	width: 55%;
 }
+
+
 
 /* CTA (More Details...) Button Positioning ------------------------ */
 #moredetailsButton{
-	padding: 1.041666666667%; /*10px;*/
-	margin: 0.520833333333% 0% 3.125%; /*5px 0px 30px; / 960px*/
+	float: left;
+	padding: 10px;
+	margin-left: 500px;
 }
 
 
@@ -125,10 +144,30 @@ article{
 
 /* Main Section (Different Types of Still Cameras) ------------------------------ */
 #mainSection{
+	clear: left;
 	width: 75%; /*920px;*/
 	padding: 2.173913043478%; /*20px/920;*/
 	margin: 0.217391304348%; /*5px auto;	*/
 }
+
+
+/* Float / Clear CSS:  Bulleted Columns - floatLeft and Footer - Clear Both ------------------------------ */
+
+.floatLeft{
+	clear: right;
+	float: left;
+	background: #559FD3;
+	opacity: 0.8;
+	width: 31.25%; /*300px/960*/;
+	padding: 1.041666666667% 0% 1.041666666667% 2.083333333333%; /*10px 0px 10px 20px;*/
+	margin: 0% 0% 3.125%; /*0px 0px 30px 0px;*/	
+}
+
+.clearBoth{
+	clear: both;
+
+}
+
 
 /* Membership Box ------------------------------ */
 #membershipDiv{
@@ -176,6 +215,10 @@ form{
 	margin: 3.125% 0% 0%; /*30px 0px 0px;*/
 }
 
+input:focus{
+			background: #8CD1F4;
+}
+
 
 /* Footer ------------------------------ */
 footer{
@@ -206,37 +249,6 @@ a:active{
 	color: #fff;
 }
 
-/* Float / Clear CSS ------------------------------ */
-.floatfeaturedLeft{
-	float: left;
-	/*width: 380px; /*39.583333333333%; /*380px/960px;*/
-	padding: 10px; /*5.263157894737%; /*20px/380;*/
-}
-
-
-.floatfeaturedImage{
-	/*border: 8px solid #333;*/
-	width: 100%;
-}
-
-.floatfeaturedImage img{
-max-width: 100%;
-}
-
-.floatLeft{
-	clear: right;
-	float: left;
-	background: #559FD3;
-	opacity: 0.8;
-	width: 31.25%; /*300px/960*/;
-	padding: 1.041666666667% 0% 1.041666666667% 2.083333333333%; /*10px 0px 10px 20px;*/
-	margin: 0% 0% 3.125%; /*0px 0px 30px 0px;*/	
-}
-
-.clearBoth{
-	clear: both;
-
-}
 
 /* Nav Elements ------------------------------ */
 #navList{
@@ -309,12 +321,18 @@ article{
 .floatLeft{
 	clear: right;
 	float: none;
-	background: #559FD3;
-	opacity: 0.8;
 	width: 98%; /*300px/960*/;
-	padding: 1.041666666667% 0% 1.041666666667% 2.083333333333%; /*10px 0px 10px 20px;*/
-	margin: 0% 0% 3.125%; /*0px 0px 30px 0px;*/	
 }
+
+
+
+.definitionparaPaddingCOLUMNS{
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+}
+
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait Size (devices and browsers) 
@@ -322,10 +340,9 @@ article{
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
  .definitionparaPaddingCOLUMNS{
-	padding: 2.083333333333%; /*20px/960px;*/
-	/*-moz-column-count:0; /* Firefox */
-	/*-webkit-column-count:0; /* Safari and Chrome */
-	/*column-count:0;*/
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
 }
 
 article{
@@ -382,6 +399,11 @@ h1{
 	color: #fff;
 	background: #15145F;
 }
+
+.floatfeaturedImage{
+	display: none;
+}
+
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 
@@ -389,11 +411,11 @@ h1{
 @media screen and (max-width: 479px) {
 
 .definitionparaPaddingCOLUMNS{
-	padding: 2.083333333333%; /*20px/960px;*/
-	/*-moz-column-count:0; /* Firefox */
-	/*-webkit-column-count:0; /* Safari and Chrome */
-	/*column-count:0;*/
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
 }
+
 
 article{
 	background: #D4D4D6;
