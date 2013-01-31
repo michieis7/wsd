@@ -91,7 +91,7 @@ article{
 #moredetailsButton{
 	float: left;
 	padding: 10px;
-	margin-left: 500px;
+	margin: 5px 0px 10px;
 }
 
 
@@ -172,7 +172,7 @@ article{
 /* Membership Box ------------------------------ */
 #membershipDiv{
 	width: 95.833333333333%; /*920px/960px;*/
-	height: 510px;
+	height: 660px;
 	padding: 2.083333333333%; /*20px/960;*/
 	background-color: #D4D4D6;
 }
@@ -316,6 +316,7 @@ a:active{
 
 article{
 	background: #559FD3;
+	height: 365px;
 }
 
 .floatLeft{
@@ -323,8 +324,6 @@ article{
 	float: none;
 	width: 98%; /*300px/960*/;
 }
-
-
 
 .definitionparaPaddingCOLUMNS{
 	-moz-column-count:1; /* Firefox */
@@ -332,76 +331,76 @@ article{
 	column-count:1;
 }
 
-
 }
 
 /* Mobile Landscape Size to Tablet Portrait Size (devices and browsers) 
 ======================================================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+article{
+	background: #559FD3;
+	height: 440px;
+	margin: 0 auto;
+}
+
+.floatfeaturedTEXTLeft{
+	float: none;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px; /*5.263157894737%; /*20px/380;*/
+}
+
+.floatfeaturedImage{
+	display: none;
+}
+
  .definitionparaPaddingCOLUMNS{
 	-moz-column-count:1; /* Firefox */
 	-webkit-column-count:1; /* Safari and Chrome */
 	column-count:1;
-}
-
-article{
-	background: #559FD3;
+	width: 90%;
 }
 
 h1{
 	font: 200% 'Denk One', sans-serif; /*31px/16px*/
 	text-align: center;
 	margin: 10% auto;
-	/*text-indent: 25px;*/
-	text-shadow: 2px 2px 2px #111;
 }	
+
+h2{
+	text-align: center;
+	margin: 0 auto;
+}
 
 
 .floatLeft{
-	clear: right;
 	float: none;
-	background: #559FD3;
-	opacity: 0.8;
-	width: 98%; /*300px/960*/;
-	padding: 1.041666666667% 0% 1.041666666667% 2.083333333333%; /*10px 0px 10px 20px;*/
-	margin: 0% 0% 3.125%; /*0px 0px 30px 0px;*/	
+	width: 98%; /*300px/960*/;	
 }
 
 #navList{
-   width: 67.69%; /*720px;*/
-   margin: 0 auto;
-   background: #15145F;
-   list-style-type: none;
-   padding: 0;
    float: none;
-   overflow: hidden;
 }
+
 
 .navListItem{
 	width: 100%; /*120px/720px;*/
 	margin: 5% 0% 5%;
-	background: #8CD1F4;
 	float: none;
 }
 
 .navLink{
-	text-decoration: none;
-	background: #8CD1F4;
-	display: block;
 	height: 80px;
 	line-height: 80px;
-	text-align: center;
-	color: #15145F;
 }
 
-.navLink:hover{
-	color: #fff;
-	background: #15145F;
+ul{
+	font: 200% 'Basic', sans-serif; 
 }
 
-.floatfeaturedImage{
-	display: none;
+ol{
+	font: 200% 'Basic', sans-serif; 
 }
 
 }
@@ -410,50 +409,60 @@ h1{
 ======================================================================*/
 @media screen and (max-width: 479px) {
 
-.definitionparaPaddingCOLUMNS{
+article{
+	background: #D4D4D6;
+	height: 470px;
+	margin: 0 auto;
+}
+
+.floatfeaturedTEXTLeft{
+	float: none;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px; /*5.263157894737%; /*20px/380;*/
+}
+
+.floatfeaturedImage{
+	display: none;
+}
+
+ .definitionparaPaddingCOLUMNS{
 	-moz-column-count:1; /* Firefox */
 	-webkit-column-count:1; /* Safari and Chrome */
 	column-count:1;
-}
-
-
-article{
-	background: #D4D4D6;
+	width: 90%;
 }
 
 h1{
 	font: 200% 'Denk One', sans-serif; /*31px/16px*/
 	text-align: center;
 	margin: 10% auto;
-	/*text-indent: 25px;*/
-	text-shadow: 2px 2px 2px #111;
 }	
 
-.floatLeft{
-	clear: right;
-	float: none;
-	background: #559FD3;
-	opacity: 0.8;
-	width: 98%; /*300px/960*/;
-	padding: 1.041666666667% 0% 1.041666666667% 2.083333333333%; /*10px 0px 10px 20px;*/
-	margin: 0% 0% 3.125%; /*0px 0px 30px 0px;*/	
+h2{
+	text-align: center;
+	margin: 0 auto;
 }
 
+
+.floatLeft{
+	float: none;
+	width: 98%; /*300px/960*/;	
+}
+
+#membershipDiv{
+	height: 530px;
+}
 
 #navList{
-   width: 67.69%; /*720px;*/
-   margin: 0 auto;
-   background: #15145F;
-   list-style-type: none;
-   padding: 0;
    float: none;
-   overflow: hidden;
 }
+
 
 .navListItem{
 	width: 100%; /*120px/720px;*/
 	margin: 5% 0% 5%;
-	background: #8CD1F4;
 	float: none;
 }
 
@@ -471,11 +480,13 @@ h1{
 	color: #fff;
 	background: #15145F;
 }
-/*article, section, aside {
-	float: none;
-}*/
-.floatfeaturedImage{
-	display: none;
+
+ul{
+	font: 160% 'Basic', sans-serif; 
+}
+
+ol{
+	font: 160% 'Basic', sans-serif; 
 }
 
 }
